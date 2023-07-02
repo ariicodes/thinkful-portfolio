@@ -1,0 +1,51 @@
+body {
+	background: #090a11;
+	color: azure;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px 25px;
+}
+
+h1 {
+    color: hotpink;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+h2 {
+	font-size: medium;
+    margin-top: -15px;
+}
+
+h3 {
+    color: deeppink;
+}
+
+img {
+	height: 200px;
+    /* HERE I CENTERED THE IMAGE */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+a {
+    color: lightpink;
+}
+
+a:hover {
+    /* I MADE THE COLOR CHANGE ON HOVER */
+    color: cyan;
+}
+
+.contact-links {
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+}

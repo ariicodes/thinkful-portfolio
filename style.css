@@ -1,13 +1,14 @@
 body {
+	/* THIS CHANGES THE BACKGROUND COLOR OF THE WHOLE WEBPAGE */
 	background: #090a11;
 	color: azure;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
 		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px 25px;
+	padding: 5px 25px;
 }
 
 h1 {
-    color: hotpink;
+	color: hotpink;
 }
 
 h1,
@@ -17,35 +18,35 @@ h2 {
 
 h2 {
 	font-size: medium;
-    margin-top: -15px;
+	margin-top: -15px;
 }
 
 h3 {
-    color: deeppink;
+	color: deeppink;
 }
 
 img {
 	height: 200px;
-    /* HERE I CENTERED THE IMAGE */
+	/* HERE I CENTERED THE IMAGE USING THE MARGINS */
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
 }
 
 a {
-    color: lightpink;
+	color: lightpink;
 }
 
 a:hover {
-    /* I MADE THE COLOR CHANGE ON HOVER */
-    color: cyan;
+	/* I MADE THE COLOR OF THE LINKS CHANGE ON HOVER */
+	color: cyan;
 }
 
 .contact-links {
-    list-style-type: square;
+	/* I CHANGED THE SHAPE OF THE BULLET POINTS */
+	list-style-type: square;
 }
 
 footer {
-    text-align: center;
+	text-align: center;
 }
